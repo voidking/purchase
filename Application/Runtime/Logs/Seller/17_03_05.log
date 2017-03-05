@@ -2063,3 +2063,92 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
 
+[ 2017-03-05T23:03:31+08:00 ] ::1 /purchase/index.php/Seller/User/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2017-03-05T23:04:34+08:00 ] ::1 /purchase/index.php/Seller/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( username='buyer1' AND password='buyer1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2017-03-05T23:04:43+08:00 ] ::1 /purchase/index.php/Seller/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( username='buyer1' AND password='buyer1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2017-03-05T23:08:26+08:00 ] ::1 /purchase/index.php/Seller/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( username='seller1' AND password='seller1' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2017-03-05T23:08:36+08:00 ] ::1 /purchase/index.php/Seller/Manage/find_reply_order_list_by_seller_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( seller_id='2' AND replied=0 AND deleted=0 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001538s ]
+
+[ 2017-03-05T23:08:38+08:00 ] ::1 /purchase/index.php/Seller/Manage/replied_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002904s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( seller_id='2' AND replied=1 AND deleted=0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2017-03-05T23:08:46+08:00 ] ::1 /purchase/index.php/Seller/Manage/find_reply_order_by_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2017-03-05T23:08:58+08:00 ] ::1 /purchase/index.php/Seller/Manage/update_reply_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+NOTIC: [8] Undefined variable: product_reply D:\Server\wamp64\www\purchase\Application\Seller\Controller\ManageController.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0012s ]
+SQL: UPDATE `pur_reply_order` SET `product_reply`='[{\"product_name\":\"毛巾\",\"product_num\":\"4\",\"product_unit\":\"条\",\"product_price\":\"40\"},{\"product_name\":\"浴巾\",\"product_num\":\"4\",\"product_unit\":\"条\",\"product_price\":\"40.9\"}]',`total_price`='80.9',`replied`='1' WHERE ( id='13' ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2017-03-05T23:09:04+08:00 ] ::1 /purchase/index.php/Seller/Manage/replied_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( seller_id='2' AND replied=1 AND deleted=0 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001564s ]
+

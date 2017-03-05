@@ -9,5 +9,6 @@
 
 3、买家查看返回的报价单，并挑选出最适合的报价单，以便下单。
 
-# 效果演示
+# 效果演示   
 
+![](http://7oxjrx.com1.z0.glb.clouddn.com//imgs/purchase/purchase.gif)
