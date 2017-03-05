@@ -1,0 +1,70 @@
+.product-form{
+    width: 100%;
+}
+
+.product-form table{
+    border: 1px solid #333;
+    width: 100%;
+}
+
+.product-form td{
+    min-height: 50px;
+    border-top: 1px solid #333;
+    text-align: center;
+}
+
+.product-form .submit{
+    float: right;
+    margin: 10px;
+    width: 70px;
+    height: 40px;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    background: #33AECC;
+}
+
+.product-form .product-name{
+    width: 30%;
+}
+.product-form .product-num{
+    width: 10%;
+}
+
+.product-form td input{
+    width: 95%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+}
+
+.add-item{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 6px;
+    background: url(../img/add.png) no-repeat;
+    background-size: 100% 100%;
+}
+.add-item:hover{
+    cursor: pointer;
+}
+
+.delete:hover,.confirm:hover,.edit:hover{
+    cursor: pointer;
+    color: #00f;
+}
+
+.order-name{
+    margin: 10px;
+}
+.order-name input{
+    width: 40%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+}
+
+
+
+

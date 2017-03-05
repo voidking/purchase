@@ -1,0 +1,1140 @@
+[ 2017-03-05T10:06:41+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+ERR: 1364:Field 'order_number' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `pur_res_order` () VALUES ()
+
+[ 2017-03-05T10:11:21+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+ERR: 1364:Field 'order_number' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `pur_res_order` () VALUES ()
+
+[ 2017-03-05T10:13:18+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+ERR: 1364:Field 'order_number' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `pur_res_order` () VALUES ()
+
+[ 2017-03-05T10:13:37+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `pur_res_order` [ RunTime:0.0010s ]
+ERR: 1136:Column count doesn't match value count at row 2
+ [ SQL语句 ] : INSERT INTO `pur_res_order` () VALUES (),('MRaLQS1bXV','1','1','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('MRaLQS1bXV','1','2','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('dIZ41fo0wD','1','1','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('dIZ41fo0wD','1','2','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]')
+ERR: 1136:Column count doesn't match value count at row 2
+ [ SQL语句 ] : INSERT INTO `pur_res_order` () VALUES (),('MRaLQS1bXV','1','1','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('MRaLQS1bXV','1','2','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('dIZ41fo0wD','1','1','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('dIZ41fo0wD','1','2','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]')
+
+[ 2017-03-05T10:18:57+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+
+[ 2017-03-05T10:19:09+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+
+[ 2017-03-05T10:20:13+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2017-03-05T10:20:38+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `pur_res_order` [ RunTime:0.0012s ]
+ERR: 1136:Column count doesn't match value count at row 2
+ [ SQL语句 ] : INSERT INTO `pur_res_order` () VALUES (),('MRaLQS1bXV','1','1','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('MRaLQS1bXV','1','2','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('dIZ41fo0wD','1','1','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('dIZ41fo0wD','1','2','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]')
+ERR: 1136:Column count doesn't match value count at row 2
+ [ SQL语句 ] : INSERT INTO `pur_res_order` () VALUES (),('MRaLQS1bXV','1','1','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('MRaLQS1bXV','1','2','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('dIZ41fo0wD','1','1','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('dIZ41fo0wD','1','2','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]')
+
+[ 2017-03-05T10:21:18+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+SQL: SHOW COLUMNS FROM `pur_res_order` [ RunTime:0.0008s ]
+ERR: 1136:Column count doesn't match value count at row 2
+ [ SQL语句 ] : INSERT INTO `pur_res_order` () VALUES (),('MRaLQS1bXV','1','1','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('MRaLQS1bXV','1','2','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('dIZ41fo0wD','1','1','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('dIZ41fo0wD','1','2','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]')
+ERR: 1136:Column count doesn't match value count at row 2
+ [ SQL语句 ] : INSERT INTO `pur_res_order` () VALUES (),('MRaLQS1bXV','1','1','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('MRaLQS1bXV','1','2','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('dIZ41fo0wD','1','1','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('dIZ41fo0wD','1','2','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]')
+
+[ 2017-03-05T10:23:15+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002599s ]
+SQL: SHOW COLUMNS FROM `pur_res_order` [ RunTime:0.0017s ]
+SQL: INSERT INTO `pur_res_order` (`order_number`,`buyer_id`,`seller_id`,`product`) VALUES ('MRaLQS1bXV','1','1','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('MRaLQS1bXV','1','2','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('dIZ41fo0wD','1','1','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('dIZ41fo0wD','1','2','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]') [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2017-03-05T10:57:16+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002237s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2017-03-05T10:57:16+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2017-03-05T11:03:20+08:00 ] ::1 /purchase/index.php/Buyer/User/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2017-03-05T11:59:13+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+NOTIC: [8] Undefined index: buyer D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2017-03-05T11:59:13+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002295s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2017-03-05T11:59:31+08:00 ] ::1 /purchase/index.php/Buyer/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pur_buyer` WHERE ( username='voidking' AND password='voidking' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2017-03-05T11:59:38+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002076s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2017-03-05T11:59:38+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002443s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2017-03-05T12:12:52+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_res_order_list_by_seller_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+ERR: 非法操作:find_res_order_list_by_seller_id
+
+[ 2017-03-05T12:19:03+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001585s ]
+
+[ 2017-03-05T12:19:03+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001547s ]
+
+[ 2017-03-05T12:19:37+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+SQL: SHOW COLUMNS FROM `pur_res_order` [ RunTime:0.0012s ]
+SQL: INSERT INTO `pur_res_order` (`order_number`,`buyer_id`,`seller_id`,`order_name`,`product`) VALUES ('WB1nK6pqpc','1','1','牙刷等','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]'),('WB1nK6pqpc','1','2','牙刷等','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2017-03-05T12:29:29+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2017-03-05T12:29:29+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001556s ]
+
+[ 2017-03-05T18:24:05+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001985s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2017-03-05T18:24:05+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003613s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2017-03-05T18:37:08+08:00 ] ::1 /purchase/index.php/Buyer/User/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2017-03-05T18:37:20+08:00 ] ::1 /purchase/index.php/Buyer/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pur_buyer` WHERE ( username='buyer1' AND password='buyer2' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2017-03-05T18:37:25+08:00 ] ::1 /purchase/index.php/Buyer/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pur_buyer` WHERE ( username='buyer1' AND password='buyer2' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2017-03-05T18:37:32+08:00 ] ::1 /purchase/index.php/Buyer/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pur_buyer` WHERE ( username='buyer1' AND password='buyer1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2017-03-05T18:37:41+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2017-03-05T18:37:41+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001485s ]
+
+[ 2017-03-05T18:38:41+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002099s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2017-03-05T19:06:56+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002105s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0013s ]
+ERR: 1054:Unknown column 'deleted' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND deleted=0 ) 
+ERR: 1054:Unknown column 'deleted' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND deleted=0 ) 
+
+[ 2017-03-05T19:08:35+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002480s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001526s ]
+
+[ 2017-03-05T19:13:26+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002765s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2017-03-05T19:14:20+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001724s ]
+
+[ 2017-03-05T19:15:23+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002275s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001411s ]
+
+[ 2017-03-05T19:21:17+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001600s ]
+
+[ 2017-03-05T19:25:20+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001971s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001607s ]
+
+[ 2017-03-05T19:26:47+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001556s ]
+
+[ 2017-03-05T19:29:38+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002369s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001536s ]
+
+[ 2017-03-05T19:36:37+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002083s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001559s ]
+
+[ 2017-03-05T20:01:38+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0005s ]
+NOTIC: [8] Trying to get property of non-object D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 140 行.
+SQL: SELECT * FROM `pur_seller` WHERE ( id='' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Trying to get property of non-object D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 140 行.
+SQL: SELECT * FROM `pur_seller` WHERE ( id='' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Trying to get property of non-object D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 140 行.
+SQL: SELECT * FROM `pur_seller` WHERE ( id='' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Trying to get property of non-object D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 140 行.
+SQL: SELECT * FROM `pur_seller` WHERE ( id='' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2017-03-05T20:05:42+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002153s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2017-03-05T20:07:06+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002322s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0008s ]
+NOTIC: [8] Trying to get property of non-object D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 140 行.
+SQL: SELECT * FROM `pur_seller` WHERE ( id='seller_id' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Trying to get property of non-object D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 140 行.
+SQL: SELECT * FROM `pur_seller` WHERE ( id='seller_id' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Trying to get property of non-object D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 140 行.
+SQL: SELECT * FROM `pur_seller` WHERE ( id='seller_id' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Trying to get property of non-object D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 140 行.
+SQL: SELECT * FROM `pur_seller` WHERE ( id='seller_id' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2017-03-05T20:07:26+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0006s ]
+NOTIC: [8] Trying to get property of non-object D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 140 行.
+SQL: SELECT * FROM `pur_seller` WHERE ( id='' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Trying to get property of non-object D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 140 行.
+SQL: SELECT * FROM `pur_seller` WHERE ( id='' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Trying to get property of non-object D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 140 行.
+SQL: SELECT * FROM `pur_seller` WHERE ( id='' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Trying to get property of non-object D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 140 行.
+SQL: SELECT * FROM `pur_seller` WHERE ( id='' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001633s ]
+
+[ 2017-03-05T20:09:11+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002412s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Use of undefined constant order_number - assumed 'order_number' D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+NOTIC: [8] Array to string conversion D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 155 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2017-03-05T20:12:23+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002188s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001647s ]
+
+[ 2017-03-05T20:37:19+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002048s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001489s ]
+
+[ 2017-03-05T20:37:19+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003133s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001659s ]
+
+[ 2017-03-05T20:37:30+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+NOTIC: [8] Undefined index: seller_id_arr D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0012s ]
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+
+[ 2017-03-05T20:37:32+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+NOTIC: [8] Undefined index: seller_id_arr D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0013s ]
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+
+[ 2017-03-05T20:37:35+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0015s ]
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+
+[ 2017-03-05T20:37:44+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0010s ]
+SQL: UPDATE `pur_ask_order` SET `asked`='1' WHERE ( order_number='毛巾等' ) [ RunTime:0.0004s ]
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+
+[ 2017-03-05T20:39:13+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0008s ]
+SQL: UPDATE `pur_ask_order` SET `asked`='1' WHERE ( order_number='dIZ41fo0wD' ) [ RunTime:0.0006s ]
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+
+[ 2017-03-05T20:39:21+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0007s ]
+SQL: UPDATE `pur_ask_order` SET `asked`='1' WHERE ( order_number='dIZ41fo0wD' ) [ RunTime:0.0004s ]
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+
+[ 2017-03-05T20:39:59+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0008s ]
+SQL: UPDATE `pur_ask_order` SET `asked`='1' WHERE ( order_number='dIZ41fo0wD' ) [ RunTime:0.0004s ]
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+
+[ 2017-03-05T20:40:39+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0007s ]
+SQL: UPDATE `pur_ask_order` SET `asked`='1' WHERE ( order_number='dIZ41fo0wD' ) [ RunTime:0.0004s ]
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+
+[ 2017-03-05T20:42:04+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0007s ]
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+
+[ 2017-03-05T20:43:27+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0012s ]
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+ERR: 1146:Table 'purchase.pur_res_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pur_res_order`
+
+[ 2017-03-05T20:45:43+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_res_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+ERR: 非法操作:create_res_order
+
+[ 2017-03-05T20:45:55+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002061s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2017-03-05T20:45:55+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002347s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001735s ]
+
+[ 2017-03-05T20:46:01+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_reply_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0007s ]
+SQL: UPDATE `pur_ask_order` SET `asked`='1' WHERE ( order_number='dIZ41fo0wD' ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0015s ]
+SQL: INSERT INTO `pur_reply_order` (`order_number`,`buyer_id`,`seller_id`,`order_name`,`product`) VALUES ('dIZ41fo0wD','1','1','毛巾等','[{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"},{\"product_name\":\"毛巾\",\"product_num\":\"5\",\"product_unit\":\"条\"}]') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2017-03-05T20:47:58+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_ask_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0007s ]
+SQL: INSERT INTO `pur_ask_order` (`order_number`,`buyer_id`,`order_name`,`product`) VALUES ('c3F5QXyulU','1','足球等','[{\"product_name\":\"足球\",\"product_num\":\"5\",\"product_unit\":\"个\"},{\"product_name\":\"篮球\",\"product_num\":\"5\",\"product_unit\":\"个\"},{\"product_name\":\"牛肉\",\"product_num\":\"10\",\"product_unit\":\"斤\"}]') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2017-03-05T20:49:42+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2017-03-05T20:49:42+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002311s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2017-03-05T20:50:13+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002227s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: count_order_arr D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001558s ]
+
+[ 2017-03-05T20:50:29+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2017-03-05T20:50:29+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004093s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001682s ]
+
+[ 2017-03-05T20:52:16+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2017-03-05T20:52:17+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001984s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001627s ]
+
+[ 2017-03-05T20:57:18+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002189s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2017-03-05T20:57:18+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2017-03-05T20:57:29+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: count_order_arr D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001455s ]
+
+[ 2017-03-05T21:16:04+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: count_order_arr D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2017-03-05T21:19:59+08:00 ] ::1 /purchase/index.php/Buyer/User/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2017-03-05T22:33:31+08:00 ] ::1 /purchase/index.php/Buyer/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pur_buyer` WHERE ( username='buyer1' AND password='buyer1' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2017-03-05T22:35:06+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_ask_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0007s ]
+SQL: INSERT INTO `pur_ask_order` (`order_number`,`buyer_id`,`order_name`,`product`) VALUES ('HN5tKJqbM2','1','足球等','[{\"product_name\":\"足球\",\"product_num\":\"5\",\"product_unit\":\"个\"},{\"product_name\":\"篮球\",\"product_num\":\"6\",\"product_unit\":\"个\"},{\"product_name\":\"牛肉\",\"product_num\":\"10\",\"product_unit\":\"斤\"}]') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2017-03-05T22:36:20+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_ask_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0008s ]
+SQL: INSERT INTO `pur_ask_order` (`order_number`,`buyer_id`,`order_name`,`product`) VALUES ('gSKkkU6HR7','1','毛巾篮球牛肉','[{\"product_name\":\"篮球\",\"product_num\":\"6\",\"product_unit\":\"个\"},{\"product_name\":\"牛肉\",\"product_num\":\"10\",\"product_unit\":\"斤\"}]') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2017-03-05T22:36:33+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002913s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2017-03-05T22:36:33+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002316s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001737s ]
+
+[ 2017-03-05T22:36:55+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_reply_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0009s ]
+SQL: UPDATE `pur_ask_order` SET `asked`='1' WHERE ( order_number='HN5tKJqbM2' ) [ RunTime:0.0005s ]
+SQL: UPDATE `pur_ask_order` SET `asked`='1' WHERE ( order_number='gSKkkU6HR7' ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0012s ]
+SQL: INSERT INTO `pur_reply_order` (`order_number`,`buyer_id`,`seller_id`,`order_name`,`product`) VALUES ('HN5tKJqbM2','1','1','足球等','[{\"product_name\":\"足球\",\"product_num\":\"5\",\"product_unit\":\"个\"},{\"product_name\":\"篮球\",\"product_num\":\"6\",\"product_unit\":\"个\"},{\"product_name\":\"牛肉\",\"product_num\":\"10\",\"product_unit\":\"斤\"}]'),('HN5tKJqbM2','1','2','足球等','[{\"product_name\":\"足球\",\"product_num\":\"5\",\"product_unit\":\"个\"},{\"product_name\":\"篮球\",\"product_num\":\"6\",\"product_unit\":\"个\"},{\"product_name\":\"牛肉\",\"product_num\":\"10\",\"product_unit\":\"斤\"}]'),('gSKkkU6HR7','1','1','毛巾篮球牛肉','[{\"product_name\":\"篮球\",\"product_num\":\"6\",\"product_unit\":\"个\"},{\"product_name\":\"牛肉\",\"product_num\":\"10\",\"product_unit\":\"斤\"}]'),('gSKkkU6HR7','1','2','毛巾篮球牛肉','[{\"product_name\":\"篮球\",\"product_num\":\"6\",\"product_unit\":\"个\"},{\"product_name\":\"牛肉\",\"product_num\":\"10\",\"product_unit\":\"斤\"}]') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2017-03-05T22:37:10+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: count_order_arr D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2017-03-05T22:42:19+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: count_order_arr D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2017-03-05T22:49:42+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: count_order_arr D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2017-03-05T22:51:20+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002465s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: count_order_arr D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001467s ]
+

@@ -1,0 +1,52 @@
+
+.order-form{
+    margin-top: 20px;
+    border:1px solid #333;
+    padding: 10px;
+}
+table{
+    width: 100%;
+    border: 1px solid #333;
+}
+
+table td{
+    min-height: 50px;
+    border-top: 1px solid #333;
+    text-align: center;
+}
+
+.order-form{
+    margin-bottom: 20px;
+}
+
+.order-table .order-name{
+    width: 80%;
+}
+
+.order-table .order-select{
+    width: 19%;
+}
+
+.order-table .detail:hover{
+    color: #00f;
+    cursor: pointer;
+}
+
+.seller-table .seller-name{
+    width: 80%;
+}
+
+.seller-table .seller-select{
+    width: 19%;
+}
+
+.submit{
+    float: right;
+    margin: 10px;
+    width: 70px;
+    height: 40px;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    background: #33AECC;
+}
