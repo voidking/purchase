@@ -28,7 +28,7 @@ class ManageController extends Controller
         }
 
         $buyer = $_SESSION['buyer'];
-        $this->assign('username',$buyer['buyer_name']);
+        $this->assign('username',$buyer['username']);
         $this->display();
     }
 

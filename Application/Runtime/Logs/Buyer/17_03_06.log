@@ -1,0 +1,70 @@
+[ 2017-03-06T12:40:57+08:00 ] ::1 /purchase/index.php/Buyer/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `pur_buyer` WHERE ( username='buyer1' AND password='buyer1' ) LIMIT 1   [ RunTime:0.0056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2017-03-06T12:41:03+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' )  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2017-03-06T12:41:03+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002348s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001744s ]
+
+[ 2017-03-06T12:41:07+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: count_order_arr D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2017-03-06T12:50:51+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2017-03-06T12:50:51+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
