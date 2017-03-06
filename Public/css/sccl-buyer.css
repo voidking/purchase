@@ -166,5 +166,12 @@ a cite{font-style: normal; *cursor:pointer;}
 	.layout-footer{left:0px;}
 }
 
+a{
+  text-decoration: none!important;
+}
+
+.info-pane{
+  padding: 10px;
+}
 
 

@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50711
 File Encoding         : 65001
 
-Date: 2017-03-06 12:49:07
+Date: 2017-03-06 20:31:42
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -46,15 +46,17 @@ CREATE TABLE `pur_buyer` (
   `username` varchar(32) NOT NULL,
   `password` varchar(32) NOT NULL,
   `buyer_name` varchar(255) NOT NULL DEFAULT '帅哥买家',
+  `email` varchar(255) DEFAULT NULL,
+  `tel` varchar(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of pur_buyer
 -- ----------------------------
-INSERT INTO `pur_buyer` VALUES ('1', 'buyer1', 'buyer1', '帅哥买家');
-INSERT INTO `pur_buyer` VALUES ('2', 'buyer2', 'buyer2', '美女买家');
-INSERT INTO `pur_buyer` VALUES ('3', 'nenu', 'nenu', '东师买家');
+INSERT INTO `pur_buyer` VALUES ('1', 'buyer1', 'buyer1', '帅哥买家', 'buyer1@qq.com', '15100000000');
+INSERT INTO `pur_buyer` VALUES ('2', 'buyer2', 'buyer2', '美女买家', null, null);
+INSERT INTO `pur_buyer` VALUES ('3', 'nenu', 'nenu', '东师买家', null, null);
 
 -- ----------------------------
 -- Table structure for `pur_reply_order`
@@ -93,12 +95,14 @@ CREATE TABLE `pur_seller` (
   `username` varchar(32) NOT NULL,
   `password` varchar(32) NOT NULL,
   `seller_name` varchar(255) NOT NULL DEFAULT '帅哥卖家',
+  `email` varchar(255) DEFAULT NULL,
+  `tel` varchar(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of pur_seller
 -- ----------------------------
-INSERT INTO `pur_seller` VALUES ('1', 'seller1', 'seller1', '卖家1号');
-INSERT INTO `pur_seller` VALUES ('2', 'seller2', 'seller2', '南京义乌商品城');
-INSERT INTO `pur_seller` VALUES ('3', 'nenu', 'nenu', '东师小卖铺');
+INSERT INTO `pur_seller` VALUES ('1', 'seller1', 'seller1', '卖家1号', 'seller1@qq.com', '13200000000');
+INSERT INTO `pur_seller` VALUES ('2', 'seller2', 'seller2', '南京义乌商品城', null, null);
+INSERT INTO `pur_seller` VALUES ('3', 'nenu', 'nenu', '东师小卖铺', null, null);

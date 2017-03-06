@@ -28,3 +28,82 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
 
+[ 2017-03-06T20:25:29+08:00 ] ::1 /purchase/index.php/Seller/Manage/find_reply_order_list_by_seller_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( seller_id='3' AND replied=0 AND deleted=0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2017-03-06T20:25:30+08:00 ] ::1 /purchase/index.php/Seller/Manage/replied_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( seller_id='3' AND replied=1 AND deleted=0 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2017-03-06T20:25:58+08:00 ] ::1 /purchase/index.php/Seller/Manage/logout
+ERR: 非法操作:logout
+
+[ 2017-03-06T20:26:41+08:00 ] ::1 /purchase/index.php/Seller/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( username='seller1' AND password='seller1' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2017-03-06T20:30:13+08:00 ] ::1 /purchase/index.php/Seller/Manage/update_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0014s ]
+SQL: UPDATE `pur_seller` SET `seller_name`='卖家1号',`email`='seller1@qq.com',`tel`='13200000000' WHERE ( id='1' ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2017-03-06T20:30:41+08:00 ] ::1 /purchase/index.php/Seller/Manage/update_pwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2017-03-06T20:30:44+08:00 ] ::1 /purchase/index.php/Seller/Manage/update_pwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2017-03-06T20:31:01+08:00 ] ::1 /purchase/index.php/Seller/Manage/update_pwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0010s ]
+SQL: UPDATE `pur_seller` SET `password`='seller1' WHERE ( id='1' ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2017-03-06T20:31:05+08:00 ] ::1 /purchase/index.php/Seller/Manage/update_pwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0012s ]
+SQL: UPDATE `pur_seller` SET `password`='seller' WHERE ( id='1' ) [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+

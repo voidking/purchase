@@ -28,7 +28,7 @@ class ManageController extends Controller
         }
 
         $seller = $_SESSION['seller'];
-        $this->assign('username',$seller['username']);
+        $this->assign('seller',$seller);
         $this->display();
     }
 
@@ -103,5 +103,93 @@ class ManageController extends Controller
             'reply_order_list' => $reply_order_arr
         );
         echo json_encode($result,JSON_UNESCAPED_UNICODE);
+    }
+
+    // 修改个人信息
+    public function update_info(){
+        $data['seller_name'] = $_POST['seller_name'];
+        $data['email'] = $_POST['email'];
+        $data['tel'] = $_POST['tel'];
+        if($data['seller_name'] == ''){
+            $result = array(
+                'code' => '1',
+                'ext' => '昵称不能为空'
+            );
+            echo json_encode($result,JSON_UNESCAPED_UNICODE);
+            return;
+        }
+
+        $seller_id = $_SESSION['seller']['id'];
+
+        $seller_model = M('seller');
+        $success = $seller_model->where("id='$seller_id'")->save($data);
+        if($success){
+            $_SESSION['seller']['seller_name'] = $data['seller_name'];
+            $_SESSION['seller']['email'] = $data['email'];
+            $_SESSION['seller']['tel'] = $data['tel'];
+            $result = array(
+                'code' => '0',
+                'ext' => 'succss'
+            );
+            echo json_encode($result,JSON_UNESCAPED_UNICODE);
+        }else{
+            $result = array(
+                'code' => '2',
+                'ext' => '写入数据库失败！'
+            );
+            echo json_encode($result,JSON_UNESCAPED_UNICODE);
+        }
+    }
+
+    // 修改密码
+    public function update_pwd(){
+        $old_password = $_POST['old_password'];
+        $new_password = $_POST['new_password'];
+        $new_password2 = $_POST['new_password2'];
+
+        if($old_password == '' || $new_password == '' || $new_password2 == ''){
+            $result = array(
+                'code' => '1',
+                'ext' => '密码不能为空！'
+            );
+            echo json_encode($result,JSON_UNESCAPED_UNICODE);
+            return;
+        }
+
+        if($new_password != $new_password2){
+            $result = array(
+                'code' => '2',
+                'ext' => '两次输入密码不一致！'
+            );
+            echo json_encode($result,JSON_UNESCAPED_UNICODE);
+            return;
+        }
+
+        if($_SESSION['seller']['password'] == $old_password){
+            $seller_model = M('seller');
+            $data['password'] = $new_password;
+            $seller_id = $_SESSION['seller']['id'];
+            $success = $seller_model->where("id='$seller_id'")->save($data);
+            if($success){
+                $_SESSION['seller']['password'] = $new_password;
+                $result = array(
+                    'code' => '0',
+                    'ext' => 'succss'
+                );
+                echo json_encode($result,JSON_UNESCAPED_UNICODE);
+            }else{
+                $result = array(
+                    'code' => '3',
+                    'ext' => '写入数据库失败！'
+                );
+                echo json_encode($result,JSON_UNESCAPED_UNICODE);
+            }
+        }else{
+            $result = array(
+                'code' => '4',
+                'ext' => '原密码错误！'
+            );
+            echo json_encode($result,JSON_UNESCAPED_UNICODE);
+        }
     }
 }

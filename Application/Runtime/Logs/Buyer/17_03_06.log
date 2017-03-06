@@ -68,3 +68,216 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
 
+[ 2017-03-06T19:11:13+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+NOTIC: [8] Undefined index: buyer_name D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 159 行.
+NOTIC: [8] Undefined index: tel D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 161 行.
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0013s ]
+SQL: UPDATE `pur_buyer` SET `buyer_name`='',`email`='1',`tel`='' WHERE ( id='1' ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2017-03-06T19:32:05+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+NOTIC: [8] Undefined index: buyer_name D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0015s ]
+SQL: UPDATE `pur_buyer` SET `buyer_name`='',`email`='1',`tel`='1' WHERE ( id='1' ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2017-03-06T19:33:14+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+NOTIC: [8] Undefined index: buyer_name D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0011s ]
+ERR: 1048:Column 'buyer_name' cannot be null
+ [ SQL语句 ] : UPDATE `pur_buyer` SET `buyer_name`=NULL,`email`='957767830@qq.com',`tel`='15195892217' WHERE ( id='1' )
+ERR: 1048:Column 'buyer_name' cannot be null
+ [ SQL语句 ] : UPDATE `pur_buyer` SET `buyer_name`=NULL,`email`='957767830@qq.com',`tel`='15195892217' WHERE ( id='1' )
+
+[ 2017-03-06T19:33:31+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+NOTIC: [8] Undefined index: buyer_name D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0011s ]
+ERR: 1048:Column 'buyer_name' cannot be null
+ [ SQL语句 ] : UPDATE `pur_buyer` SET `buyer_name`=NULL,`email`='957767830@qq.com',`tel`='15195892217' WHERE ( id='1' )
+ERR: 1048:Column 'buyer_name' cannot be null
+ [ SQL语句 ] : UPDATE `pur_buyer` SET `buyer_name`=NULL,`email`='957767830@qq.com',`tel`='15195892217' WHERE ( id='1' )
+
+[ 2017-03-06T19:35:12+08:00 ] ::1 /purchase/index.php/Buyer/User/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2017-03-06T19:35:25+08:00 ] ::1 /purchase/index.php/Buyer/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pur_buyer` WHERE ( username='buyer1' AND password='buyer1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2017-03-06T19:36:03+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0010s ]
+SQL: UPDATE `pur_buyer` SET `buyer_name`='帅哥买家',`email`='957767830@qq.com',`tel`='15195892217' WHERE ( id='1' ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2017-03-06T20:03:27+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0017s ]
+SQL: UPDATE `pur_buyer` SET `buyer_name`='',`email`='957767830@qq.com',`tel`='15195892217' WHERE ( id='1' ) [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2017-03-06T20:04:48+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2017-03-06T20:05:07+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0014s ]
+SQL: UPDATE `pur_buyer` SET `buyer_name`='帅哥买家',`email`='957767830@qq.com',`tel`='15195892217' WHERE ( id='1' ) [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001327s ]
+
+[ 2017-03-06T20:05:29+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0012s ]
+SQL: UPDATE `pur_buyer` SET `buyer_name`='帅哥买家',`email`='957767830@qq.com',`tel`='15195892217' WHERE ( id='1' ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2017-03-06T20:10:35+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_pwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+NOTIC: [8] Undefined index: new_password2 D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 197 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2017-03-06T20:10:40+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_pwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+NOTIC: [8] Undefined index: new_password2 D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 197 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2017-03-06T20:10:45+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_pwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+NOTIC: [8] Undefined index: new_password2 D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 197 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2017-03-06T20:10:52+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_pwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+NOTIC: [8] Undefined index: new_password2 D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 197 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2017-03-06T20:14:16+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_pwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002212s ]
+NOTIC: [8] Undefined index: new_password2 D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 197 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2017-03-06T20:14:46+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_pwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+NOTIC: [8] Undefined index: new_password2 D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 197 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2017-03-06T20:15:04+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_pwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2017-03-06T20:15:09+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_pwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2017-03-06T20:15:33+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_pwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: buyer_id D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 219 行.
+NOTIC: [8] Undefined variable: data D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 219 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2017-03-06T20:16:23+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_pwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: buyer_id D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 220 行.
+SQL: UPDATE `pur_buyer` SET `password`='buyer' WHERE ( id='' ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001435s ]
+
+[ 2017-03-06T20:18:02+08:00 ] ::1 /purchase/index.php/Buyer/Manage/update_pwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0007s ]
+SQL: UPDATE `pur_buyer` SET `password`='buyer' WHERE ( id='1' ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
