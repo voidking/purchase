@@ -16,6 +16,17 @@
 
 <input type="hidden" id="appPath" value="__APP__">
 <input type="hidden" id="pubPath" value="__PUBLIC__">
+<div class="seller-info">
+    <p>
+        商家名称：<span class="seller-name"></span>
+    </p>
+    <p>
+        邮箱：<span class="email"></span>
+    </p>
+    <p>
+        手机号：<span class="tel"></span>
+    </p>
+</div>
 <script type="text/html" id="order-form">
     {{each ask_order_list as ask_order}}
     
@@ -30,7 +41,7 @@
                 {{if (reply_order.replied == 1)}}
                 <table class="order-table">
                     <caption>
-                        <span style="color: #FA851B;font-size: 16px;">{{reply_order.seller.seller_name}}</span>给的报价
+                        <span class="seller-name" data-email="{{reply_order.seller.email}}" data-tel="{{reply_order.seller.tel}}">{{reply_order.seller.seller_name}}</span>给的报价
                     </caption>
                     <thead>
                       <tr>
@@ -89,6 +100,26 @@ $(function(){
             console.log(xhr);
         }
     });
+
+    $('.order-div').on('click','.seller-name',function(){
+        var seller_name = $(this).html();
+        var email = $(this).attr('data-email');
+        var tel = $(this).attr('data-tel');
+
+        $('.seller-info .seller-name').html(seller_name);
+        $('.seller-info .email').html(email);
+        $('.seller-info .tel').html(tel);
+
+        layer.open({
+          type: 1,
+          title: '商家信息',
+          skin: 'layui-layer-rim', //加上边框
+          area: ['400px', '200px'], //宽高
+          content: $('.seller-info')
+        });
+
+    });
+
 });    
 </script>
 </body>

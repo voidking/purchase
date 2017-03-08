@@ -50,3 +50,15 @@ table td{
     color: #fff;
     background: #33AECC;
 }
+
+.seller-name{
+    color: #FA851B;
+    font-size: 16px;
+}
+.seller-name:hover{
+    cursor: pointer;
+}
+
+.seller-info{
+    padding: 10px;
+}
