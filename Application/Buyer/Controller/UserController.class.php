@@ -93,6 +93,7 @@ class UserController extends Controller
         $Buyer = M('buyer');
         $data['username'] = $username;
         $data['password'] = $password;
+        $data['buyer_name'] = '一个买家';
         // if(!$Buyer->create()){
         //     $this->error($Buyer->getError());
         // }
