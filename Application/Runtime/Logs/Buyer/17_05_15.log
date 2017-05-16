@@ -1,0 +1,74 @@
+[ 2017-05-15T23:25:06+08:00 ] ::1 /purchase/index.php/Buyer/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `pur_buyer` WHERE ( username='buyer1' AND password='buyer1' ) LIMIT 1   [ RunTime:0.0062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2017-05-15T23:27:01+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_ask_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0157s ]
+SQL: INSERT INTO `pur_ask_order` (`order_number`,`buyer_id`,`order_name`,`product`) VALUES ('6kgciiCi5k','1','路由器和杯子','[{\"product_name\":\"杯子\",\"product_num\":\"10\",\"product_unit\":\"个\"},{\"product_name\":\"路由器\",\"product_num\":\"4\",\"product_unit\":\"个\"}]') [ RunTime:0.0028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2017-05-15T23:27:08+08:00 ] ::1 /purchase/index.php/Buyer/Manage/find_ask_order_list_by_buyer_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002414s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' )  [ RunTime:0.0069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001610s ]
+
+[ 2017-05-15T23:27:08+08:00 ] ::1 /purchase/index.php/Buyer/Manage/get_seller_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002264s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pur_seller`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2017-05-15T23:27:24+08:00 ] ::1 /purchase/index.php/Buyer/Manage/create_reply_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0071s ]
+SQL: UPDATE `pur_ask_order` SET `asked`='1' WHERE ( order_number='6kgciiCi5k' ) [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0041s ]
+SQL: INSERT INTO `pur_reply_order` (`order_number`,`buyer_id`,`seller_id`,`order_name`,`product`) VALUES ('6kgciiCi5k','1','1','路由器和杯子','[{\"product_name\":\"杯子\",\"product_num\":\"10\",\"product_unit\":\"个\"},{\"product_name\":\"路由器\",\"product_num\":\"4\",\"product_unit\":\"个\"}]'),('6kgciiCi5k','1','2','路由器和杯子','[{\"product_name\":\"杯子\",\"product_num\":\"10\",\"product_unit\":\"个\"},{\"product_name\":\"路由器\",\"product_num\":\"4\",\"product_unit\":\"个\"}]') [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2017-05-15T23:28:10+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: count_order_arr D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+

@@ -16,7 +16,7 @@
 
 <input type="hidden" id="appPath" value="/purchase/index.php">
 <input type="hidden" id="pubPath" value="/purchase/Public">
-<div class="seller-info">
+<div class="seller-info" style="display: none;">
     <p>
         商家名称：<span class="seller-name"></span>
     </p>

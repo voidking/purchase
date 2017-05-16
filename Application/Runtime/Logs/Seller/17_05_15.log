@@ -1,0 +1,51 @@
+[ 2017-05-15T23:25:38+08:00 ] ::1 /purchase/index.php/Seller/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( username='seller1' AND password='seller1' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2017-05-15T23:27:42+08:00 ] ::1 /purchase/index.php/Seller/Manage/find_reply_order_list_by_seller_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( seller_id='1' AND replied=0 AND deleted=0 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2017-05-15T23:27:47+08:00 ] ::1 /purchase/index.php/Seller/Manage/find_reply_order_by_id
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( id='14' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2017-05-15T23:27:57+08:00 ] ::1 /purchase/index.php/Seller/Manage/update_reply_order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+NOTIC: [8] Undefined variable: product_reply D:\Server\wamp64\www\purchase\Application\Seller\Controller\ManageController.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0012s ]
+SQL: UPDATE `pur_reply_order` SET `product_reply`='[{\"product_name\":\"杯子\",\"product_num\":\"10\",\"product_unit\":\"个\",\"product_price\":\"100\"},{\"product_name\":\"路由器\",\"product_num\":\"4\",\"product_unit\":\"个\",\"product_price\":\"1000\"}]',`total_price`='1100',`replied`='1' WHERE ( id='14' ) [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2017-05-15T23:28:01+08:00 ] ::1 /purchase/index.php/Seller/Manage/replied_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( seller_id='1' AND replied=1 AND deleted=0 )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001757s ]
+

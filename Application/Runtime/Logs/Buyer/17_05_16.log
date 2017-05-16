@@ -1,0 +1,64 @@
+[ 2017-05-16T12:25:05+08:00 ] ::1 /purchase/index.php/Buyer/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `pur_buyer` WHERE ( username='voidking' AND password='voidking' ) LIMIT 1   [ RunTime:0.0055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2017-05-16T12:25:17+08:00 ] ::1 /purchase/index.php/Buyer/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+SQL: SHOW COLUMNS FROM `pur_buyer` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pur_buyer` WHERE ( username='buyer1' AND password='buyer1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2017-05-16T12:25:22+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: count_order_arr D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2017-05-16T12:26:42+08:00 ] ::1 /purchase/index.php/Buyer/Manage/reply_order_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002279s ]
+SQL: SHOW COLUMNS FROM `pur_ask_order` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pur_ask_order` WHERE ( buyer_id='1' AND asked=1 AND deleted=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pur_seller` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pur_reply_order` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pur_reply_order` WHERE ( buyer_id='1' AND deleted=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pur_seller` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: count_order_arr D:\Server\wamp64\www\purchase\Application\Buyer\Controller\ManageController.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
